@@ -18,6 +18,7 @@ import logo8 from '../assets/img/seagull.svg'
 import categoryicon from '../assets/img/category-icon.svg'
 import deliveryicon from '../assets/img/delivery-icon.svg'
 import paymenticon from '../assets/img/payment-icon.svg'
+import ryan from '../assets/img/ryan-person.svg'
 
 const images = {
     guitar,
@@ -40,6 +41,7 @@ const images = {
     categoryicon,
     deliveryicon,
     paymenticon,
+    ryan
 }
 
 export default images
