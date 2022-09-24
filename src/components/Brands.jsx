@@ -15,7 +15,7 @@ const logos = [
 
 const Brands = () => {
   return (
-    <section className="mb-[200px]">
+    <section className="mb-[100px] sm:mb-[200px]">
       <div className="container">
         <div className="flex flex-col items-center justify-center">
           <h2 className="font-semibold text-[22px] xs:text-[27px] sm:text-[34px] md:text-[44px] leading-10 mb-[95px]">

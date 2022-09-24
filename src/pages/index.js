@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
-import { Brands, Categories, Header, Store } from '../components'
+import { Brands, Categories, Header, Store, Why } from '../components'
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
       <Store/>
       <Categories/>
       <Brands/>
+      <Why/>
     </>
   )
 }
