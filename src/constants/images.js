@@ -19,6 +19,9 @@ import categoryicon from '../assets/img/category-icon.svg'
 import deliveryicon from '../assets/img/delivery-icon.svg'
 import paymenticon from '../assets/img/payment-icon.svg'
 import ryan from '../assets/img/ryan-person.svg'
+import phoneApp from '../assets/img/phone-app.svg'
+import googlePlay from '../assets/img/google-play.svg'
+import appStore from '../assets/img/app-store.svg'
 
 const images = {
     guitar,
@@ -41,7 +44,10 @@ const images = {
     categoryicon,
     deliveryicon,
     paymenticon,
-    ryan
+    ryan,
+    phoneApp,
+    googlePlay,
+    appStore,
 }
 
 export default images

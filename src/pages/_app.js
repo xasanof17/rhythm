@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import { Navbar } from '../components'
+import { Footer, Navbar } from '../components'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Navbar/>
       <Component {...pageProps} />
+      <Footer/>
     </div>
   )
 }
