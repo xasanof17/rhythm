@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link href={"/"}>
               <a className="flex items-center justify-center space-x-3">
                 <Image src={images.logo} alt="logo" className="" width={100} height={100}/>
-                <h3 className="text-lg text-black font-semibold">365+</h3>
+                {/* <h3 className="text-lg text-black font-semibold">365+</h3> */}
               </a>
             </Link>
           </div>

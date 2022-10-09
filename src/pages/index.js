@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Rhythm</title>
+      <title>365+</title>
     </Head>
       <Header/>
       <Store/>
