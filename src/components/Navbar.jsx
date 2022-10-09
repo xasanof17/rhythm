@@ -16,12 +16,12 @@ const Navbar = () => {
   return (
     <nav className="bg-white sm:bg-transparent w-full py-5 sm:pt-12 z-20">
       <div className="container">
-        <div className="flex items-center justify-between sm:justify-start space-x-[135px] flex-wrap">
+        <div className="flex items-center justify-between sm:justify-start space-x-[135px] sm:flex-wrap">
           <div className="flex items-center">
             <Link href={"/"}>
               <a className="flex items-center justify-center space-x-3">
-                <Image src={images.logo} alt="logo" />
-                <h3 className="text-lg text-black font-semibold">Rhythm</h3>
+                <Image src={images.logo} alt="logo" className="" width={100} height={100}/>
+                <h3 className="text-lg text-black font-semibold">365+</h3>
               </a>
             </Link>
           </div>

@@ -16,7 +16,7 @@ const Header = () => {
             Explore 50k+ latest collections of branded guitars online with
             Rhythm.
           </p>
-          <div className="flex items-center justify-center space-x-8">
+          <div className="flex items-center justify-center flex-col sm:flex-row space-y-4 sm:space-x-8 w-full sm:w-fit">
             <button className="py-5 px-12 bg-brown rounded-[40px] text-white text-lg font-semibold">
               Get the App
             </button>

@@ -1,5 +1,5 @@
 import guitar from '../assets/img/header.svg'
-import logo from '../assets/img/logo.svg'
+import logo from '../assets/img/logo.png'
 import guitar1 from '../assets/img/guitar1.svg'
 import guitar2 from '../assets/img/guitar2.svg'
 import guitar3 from '../assets/img/guitar3.svg'

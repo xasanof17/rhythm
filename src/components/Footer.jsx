@@ -33,9 +33,9 @@ const Footer = () => {
           <div className="flex flex-col items-start justify-center">
             <Link href={"/"}>
               <a className="flex items-center justify-center space-x-3">
-                <Image src={images.logo} alt="logo" />
+                <Image src={images.logo} alt="logo" width={100} height={100}/>
                 <h3 className="text-[30px] sm:text-[40px] leading-[48px] text-black font-semibold">
-                  Rhythm
+                  365+
                 </h3>
               </a>
             </Link>
