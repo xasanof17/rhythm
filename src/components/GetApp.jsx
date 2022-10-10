@@ -4,7 +4,7 @@ import { images } from "../constants";
 
 const GetApp = () => {
   return (
-    <section className="mb-[120px]">
+    <section className="mb-[80px]">
       <div className="container">
         <div className="flex flex-col-reverse md:grid grid-cols-1 md:grid-cols-2 gap-[30px] lg:gap-[120px]">
           <div className="flex flex-col items-start justify-center">

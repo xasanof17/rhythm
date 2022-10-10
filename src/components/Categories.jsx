@@ -3,10 +3,10 @@ import React from "react";
 import { images } from "../constants";
 
 const cards = [
-  { img: images.card1, title: "Acoustic", href: "/" },
-  { img: images.card2, title: "Electric", href: "/" },
-  { img: images.card3, title: "Basses", href: "/" },
-  { img: images.card4, title: "Collections", href: "/" },
+  { img: images.designBg, title: "iT", href: "/" },
+  { img: images.itBg, title: "SMM", href: "/" },
+  { img: images.smmBg, title: "Design", href: "/" },
+  { img: images.netfoto, title: "Collections", href: "/" },
 ];
 
 const Categories = () => {
@@ -21,7 +21,7 @@ const Categories = () => {
             {cards.map((card, i) => (
               <div className="relative flex items-center justify-center md:block" key={i}>
                 {/* <div className="w-full h-full "> */}
-                  <Image src={card.img} alt="img" className="rounded-[20px] w-full h-full absolute top-0 left-0"/>
+                  <Image src={card.img} alt="img" className="rounded-[20px] "/>
                 {/* </div> */}
                 <p className="font-semibold text-lg text-white absolute bottom-5 left-[40%] md:left-[26%]">
                   {card.title}
